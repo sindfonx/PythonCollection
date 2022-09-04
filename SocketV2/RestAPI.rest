@@ -1,0 +1,20 @@
+@host = http://127.0.0.1:5000
+
+POST {{host}}/GenerateToken
+Content-Type: application/json
+
+{
+    
+}
+
+// 單純給我token而已
+
+###
+
+POST {{host}}/AddConversation
+Content-Type: application/json
+
+{
+    "Token": "5ecf436629b6ef4430c637c10b20c56c010091bce7d45c1ff9227bb42c31c1be",
+    "Content": "安安你好"
+}

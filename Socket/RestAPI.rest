@@ -1,0 +1,9 @@
+@host = http://127.0.0.1
+
+GET {{host}}/selfAddProtocol
+Content-Type: application/json
+
+{
+    "selfAdd": "",
+    "Token": ""
+}
